@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+    background: url("https://thumbs.dreamstime.com/z/light-color-background-11461151.jpg");
+    background-size: 185%;
+    background-position:  0px;
+    
+
+}
+
+div.main
+{
+    width: 500px;
+    margin: 20px auto 0px auto;
+    
+}
+h2{
+    text-align: center;
+   color:black;
+}
+div.Register{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    font-size:20px;
+    border-radius:10px;
+    border:0.5px solid red;
+    color:white;
+   
+}
+p {
+     text-align: center;
+    }
+ input[type=submit]{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    cursor:pointer;
+    width:97%
+}
+.fill{
+    margin: 5px;
+    padding: 2px
+}
+Date{
+    margin: 20px;
+}
+ 
+  
+

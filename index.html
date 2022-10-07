@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel ="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <div class ='main'>
+  <div class = "Register">
+     <h2>Register here</h2><br>
+     <p style=font-size:small;>Book a call slot and our representative will call you soon</p>
+     <form id = "Register" method = "post">
+      <label for="name" class="fill">Name:</label>
+      &nbsp;&nbsp;&nbsp;
+       <input type="text" name="name" id="name"  placeholder="Enter you  name"><br><br>
+       <lable for="phone" class="fill">Mobile: </lable>
+       &nbsp;
+       <input type="text" name="phone" id ="phone" placeholder ="Enter your number"><br><br>
+       <lable for="email" class="fill">email:</lable>
+       &nbsp;&nbsp;&nbsp;
+       <input type="email" id="email" name="email" placeholder ="Ente your email"><br><br>
+       <lable class="fill">Gender:</lable>&nbsp;&nbsp;
+       <input type="radio" id ="male" name = "gender" value="male">
+       <lable for="male">Male:</lable>&nbsp;&nbsp;
+       <input type="radio"  id="female" name="gender" value="female">
+       <lable for = "Female" class="fill" >Female:</lable><br><br>
+       <lable for="date" class="fill">Date:</lable> &nbsp; &nbsp;
+       <input type="date"  id="date" name="date" value="date"> &nbsp;&nbsp;&nbsp;&nbsp;
+       <lable for="time">Time:</lable>
+       <!--<input type="text" id="time" name="time" placeholder="Enter time"><br><br>-->
+       <select name="time" id="time">"
+      <option value ="9am-12pm">9am-12pm</option>
+      <option value ="12pm-5pm">12pm-5pm</option>
+       <input type="submit" value ="Get a call">
+     </form>
+  </div> <!--register class ends-->
+  </div> <!--main class ends-->
+</body>
+</html>
